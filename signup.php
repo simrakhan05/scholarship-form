@@ -149,6 +149,7 @@ if (isset($_POST['sno']) || isset($_SESSION["sno"])) {
         
     } else {
         echo "<strong>Data not found for edit.</strong>";
+        // This is a test change
     }
 } 
 mysqli_close($conn);
